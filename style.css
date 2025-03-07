@@ -79,3 +79,22 @@ textarea {
   margin-top: 40px;
   text-align: center;
 }
+
+#ocr-link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ocr-link {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#ocr-link:hover {
+    background-color: #2980b9;
+}
