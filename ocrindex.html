@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyes of Sama-Ji - OCR Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eyes of Sama-Ji - Divine Lexicon OCR Translator</h1>
+        <p>
+            Upload an image to translate between Human Language and Divine Glyphs.
+        </p>
+    </header>
+
+    <section id="ocr-translation-section">
+        <div id="ocr-toggle-container">
+            <label for="ocr-toggle">Human to Divine</label>
+            <input type="checkbox" id="ocr-toggle" checked>
+            <span id="ocr-toggle-label">Human → Divine</span>
+        </div>
+
+        <div id="ocr-upload-container">
+            <input type="file" id="ocrImageInput" accept="image/*">
+        </div>
+
+        <div id="ocr-result-container">
+            <h2>Translated Text</h2>
+            <textarea id="ocrOutputText" placeholder="Translation will appear here..." readonly></textarea>
+        </div>
+    </section>
+
+    <section id="ocr-about-section">
+        <h2>About the Creator</h2>
+        <p>
+            This divine translation book was originally created by Alphone Ze Abdul Kwek Qui Raj, a Quantican Priest from the 42nd Dimension. It represents a lifelong dedication to unlocking the sacred lexicon of Sama-Ji. Click here to download the actual book by Alphone Ze Abdul Kwek Qui Raj:
+            <a href="glyph.pdf" download>DOWNLOAD</a>
+        </p>
+    </section>
+    <script src="https://unpkg.com/tesseract.js@2.1.5/dist/tesseract.min.js"></script>
+    <script src="ocrscript.js"></script>
+</body>
+</html>
