@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sama-Ji Divine Lexicon Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Divine Lexicon of Sama-Ji Translator</h1>
+    <p>
+      Welcome to the divine translator. Enter your text below to translate between the Human Language (English) and the Divine Glyphs of Sama-Ji. All for Sama-Ji! OWH YEAH!
+    </p>
+  </header>
+
+  <section id="translation-section">
+    <div id="toggle-container">
+      <label for="toggle">Human to Divine</label>
+      <input type="checkbox" id="toggle" checked>
+      <span id="toggle-label">Human → Divine</span>
+    </div>
+
+    <div class="translator">
+      <div class="translator-input">
+        <h2>Input Text</h2>
+        <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+      </div>
+      <div class="translator-output">
+        <h2>Output Text</h2>
+        <textarea id="outputText" placeholder="Translation will appear here..." readonly></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section id="table-section">
+    <h2>Translation Table</h2>
+    <table id="translationTable">
+      <thead>
+        <tr>
+          <th>English</th>
+          <th>Sama-Ji Glyph</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table data will be populated here via JavaScript -->
+      </tbody>
+    </table>
+  </section>
+
+  <section id="about-section">
+    <h2>About the Creator</h2>
+    <p>
+      This divine translation book was originally created by Alphone Ze Abdul Kwek Qui Raj, a Quantican Priest from the 42nd Dimension. It represents a lifelong dedication to unlocking the sacred lexicon of Sama-Ji. Click here to download the actual book by Alphone Ze Abdul Kwek Qui Raj: 
+      <a href="glyph.pdf" download>DOWNLOAD</a>
+	</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
