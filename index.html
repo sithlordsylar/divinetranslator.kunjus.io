@@ -14,11 +14,13 @@
     </p>
   </header>
 
-  <!-- Learn More Section -->
-<p>
-  Learn more about this Divine Lexicon: 
-  <a href="glyph.pdf" download>DOWNLOAD PDF</a>
-</p>
+  <!-- Download Link Section -->
+  <div id="download-link-container">
+    <p>
+      Learn more about this Divine Lexicon: 
+      <a href="glyph.pdf" download id="download-link">DOWNLOAD PDF</a>
+    </p>
+  </div>
 
   <section id="translation-section">
     <div id="toggle-container">
@@ -37,13 +39,15 @@
         <textarea id="outputText" placeholder="Translation will appear here..." readonly></textarea>
       </div>
     </div>
-  <!--
+
+    <!--
     <div id="ocr-link-container">
       <p>To translate visual or image click here:</p>
       <a href="ocrindex.html">Eyes of Sama-Ji</a>
     </div>
+    -->
   </section>
-  -->
+
   <section id="table-section">
     <h2>Translation Table</h2>
     <table id="translationTable">
@@ -54,7 +58,7 @@
         </tr>
       </thead>
       <tbody>
-        </tbody>
+      </tbody>
     </table>
   </section>
 
@@ -67,10 +71,6 @@
   </section>
 
   <script src="script.js"></script>
-  <script>
-    document.getElementById('ocr-link').addEventListener('click', function() {
-      window.location.href = 'ocrindex.html';
-    });
-  </script>
+
 </body>
 </html>
