@@ -16,6 +16,25 @@ h1, h2 {
   color: #2c3e50;
 }
 
+/* Download Link Section */
+#download-link-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#download-link {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#download-link:hover {
+  background-color: #2980b9;
+}
+
 /* Toggle switch container */
 #toggle-container {
   display: flex;
@@ -81,20 +100,20 @@ textarea {
 }
 
 #ocr-link-container {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #ocr-link {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 #ocr-link:hover {
-    background-color: #2980b9;
+  background-color: #2980b9;
 }
