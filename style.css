@@ -28,7 +28,7 @@ h1, h2 {
   margin: 20px 0;
 }
 
-#download-link {
+#download-link2 {
   padding: 10px 20px;
   background-color: #3498db;
   color: white;
@@ -105,6 +105,17 @@ textarea {
 #about-section {
   margin-top: 40px;
   text-align: center;
+}
+
+#download-link2 {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px; /* Add spacing for mobile */
+  display: inline-block; /* Ensures margin-top applies correctly */
 }
 
 #ocr-link-container {
