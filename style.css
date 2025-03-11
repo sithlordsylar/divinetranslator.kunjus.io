@@ -114,7 +114,7 @@ textarea {
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
-  margin-top: 5px; /* Add spacing for mobile */
+  margin-top: 15px; /* Add spacing for mobile */
   display: inline-block; /* Ensures margin-top applies correctly */
 }
 
