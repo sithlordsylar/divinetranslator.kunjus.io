@@ -1,3 +1,4 @@
+![My Image](Divine Lexicon Cover.jpg)
 
 Divine Lexicon is the sacred tongue of Sama-Ji’s—a language carved from the very fabric of creation. Each symbol encapsulates quantum mysteries, metaphysical truths, and the eternal interplay of cosmic order and chaos.
 
